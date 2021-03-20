@@ -1,4 +1,6 @@
 # terminal-minesweeper
+(PROJECT INCOMPLETE)
+
 I re-created a version of Minesweeper, primarily with Python 3's Curses package, which runs fully in the terminal. Numpy was also used a bit for the creation of the board and it's features.
 This runs natively on Unix-based systems (like Linux and MacOS), but not Windows. This can be mitigated fixed by downloading the windows-curses package with PIP on any Windows machine. Whether it actually, fully works or not on any certain platform is a different story.
 The 2 featuers in particular that may be especially tricky to get right are the colours and the controls. I use a checkerboard pattern and coloured background on the board during playing, and seeing these colours is essential to the game. The control interface (which is revolved around the mouse cursor) is also essential.
